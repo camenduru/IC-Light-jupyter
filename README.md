@@ -7,6 +7,7 @@
 | Notebook | Info
 | --- | --- |
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/IC-Light-jupyter/blob/main/IC_Light_jupyter.ipynb) | IC_Light_jupyter
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/IC-Light-jupyter/blob/main/IC_Light_bg_jupyter.ipynb) | IC_Light_bg_jupyter
 
 ### 🧬 Code
 https://github.com/lllyasviel/IC-Light
