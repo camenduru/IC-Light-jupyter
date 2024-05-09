@@ -13,9 +13,11 @@
 https://github.com/lllyasviel/IC-Light
 
 ### 🖼 Output
+
 IC_Light_jupyter
 
 ![image](https://github.com/camenduru/IC-Light-jupyter/assets/54370274/88eae25d-7c3b-49fc-b13c-8c1474216478)
 
 IC_Light_bg_jupyter
+
 ![Screenshot 2024-05-09 053659](https://github.com/camenduru/IC-Light-jupyter/assets/54370274/7f957356-be26-4066-b45f-1073d0cabe06)
