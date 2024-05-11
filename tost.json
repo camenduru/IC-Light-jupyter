@@ -1,0 +1,109 @@
+{
+    "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+    "type": "object",
+    "properties": {
+      "readme": {
+        "type": "string",
+        "title": "IC-Light is a project to manipulate the illumination of images.",
+        "author": "Lvmin Zhang (Lyumin Zhang)",
+        "description": "The name 'IC-Light' stands for 'Imposing Consistent Light' (we will briefly describe this at the end of this page). Currently, we release two types of models: text-conditioned relighting model and background-conditioned model. Both types take foreground images as inputs.",
+        "code": "https://github.com/lllyasviel/IC-Light",
+        "jupyter": "https://github.com/camenduru/IC-Light-jupyter",
+        "post": "https://twitter.com/camenduru/status/1788393502289596557",
+        "tags": [
+            "Image to Image"
+          ],
+        "widget": "readme"
+      },
+      "input_fg": {
+        "type": "string",
+        "description": "Input Image URL",
+        "widget": "textarea"
+      },
+      "prompt": {
+        "type": "string",
+        "description": "Prompt",
+        "widget": "textarea"
+      },
+      "width": {
+        "type": "integer",
+        "description": "Width"
+      },
+      "height": {
+        "type": "integer",
+        "description": "Height"
+      },
+      "seed": {
+        "type": "integer",
+        "description": "Seed"
+      },
+      "steps": {
+        "type": "integer",
+        "description": "Steps"
+      },
+      "a_prompt": {
+        "type": "string",
+        "description": "Added Prompt",
+        "widget": "textarea"
+      },
+      "n_prompt": {
+        "type": "string",
+        "description": "Negative prompt",
+        "widget": "textarea"
+      },
+      "cfg": {
+        "type": "integer",
+        "description": "CFG"
+      },
+      "highres_scale": {
+        "type": "number",
+        "description": "Highres Scale"
+      },
+      "highres_denoise": {
+        "type": "number",
+        "description": "Highres Denoise"
+      },
+      "lowres_denoise": {
+        "type": "number",
+        "description": "Lowres Denoise"
+      },
+      "bg_source": {
+        "type": "string",
+        "widget": "select",
+        "description": "Light Direction",
+        "oneOf": [
+          {
+            "description": "LEFT",
+            "enum": [
+              "LEFT"
+            ]
+          },
+          {
+            "description": "RIGHT",
+            "enum": [
+              "RIGHT"
+            ]
+          },
+          {
+            "description": "TOP",
+            "enum": [
+              "TOP"
+            ]
+          },
+          {
+            "description": "BOTTOM",
+            "enum": [
+              "BOTTOM"
+            ]
+          }
+        ],
+        "default": "BOTTOM"
+      }
+    },
+    "buttons": [
+      {
+        "id": "enter",
+        "label": "🥪 Enter"
+      }
+    ]
+  }
